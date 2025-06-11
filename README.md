@@ -61,6 +61,9 @@ llamate add "r1-distill:8b"
 llamate add "magistral:small"
 ```
 - ctx-size: "8192"
+- temp: "0.7"
+- top-p: "0.95"
+- jinja: ""
 
 ```bash
 llamate add "mistral:small-3.1-24b"
