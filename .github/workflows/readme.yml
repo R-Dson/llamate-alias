@@ -1,0 +1,46 @@
+name: Update README from Model Aliases
+
+on:
+  # Trigger the workflow on pushes to the main branch
+  # if model_aliases.yml has changed
+  push:
+    branches:
+      - main # Or 'master', or your default branch name
+    paths:
+      - 'model_aliases.yml'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write # Required to push changes back to the repo
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11' # Or your preferred Python version
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+
+      - name: Run script to generate README.md
+        run: python generate_readme.py # Assuming your script is named this
+
+      - name: Commit and push if README.md changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: Auto-update README.md from model_aliases.yml"
+          file_pattern: README.md # Only commit if README.md has changed
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
+          # Optional: Specify a branch to push to if different from the current branch
+          # push_options: '--force' # Use with caution, if you need to overwrite history
