@@ -9,6 +9,8 @@ llamate add "phi4:reasoning-plus"
 ```
 - ctx-size: "8192"
 - jinja: ""
+- temp: "0.8"
+- top-p: "0.95"
 
 ```bash
 llamate add "llama3:8b"
@@ -64,6 +66,7 @@ llamate add "magistral:small"
 llamate add "mistral:small-3.1-24b"
 ```
 - ctx-size: "8192"
+- temp: "0.15"
 
 ```bash
 llamate add "devstral:small"
@@ -74,41 +77,71 @@ llamate add "devstral:small"
 llamate add "qwen3:32b"
 ```
 - ctx-size: "8192"
+- temp: "0.6"
+- top-p: "0.95"
+- top-k: "20"
+- min-p: "0.0"
 
 ```bash
 llamate add "qwen3:30b-a3b"
 ```
 - ctx-size: "8192"
+- temp: "0.6"
+- top-p: "0.95"
+- top-k: "20"
+- min-p: "0.0"
 
 ```bash
 llamate add "qwen3:14b"
 ```
 - ctx-size: "8192"
+- temp: "0.6"
+- top-p: "0.95"
+- top-k: "20"
+- min-p: "0.0"
 
 ```bash
 llamate add "qwen3:8b"
 ```
 - ctx-size: "8192"
+- temp: "0.6"
+- top-p: "0.95"
+- top-k: "20"
+- min-p: "0.0"
 
 ```bash
 llamate add "qwen3:4b"
 ```
 - ctx-size: "8192"
+- temp: "0.6"
+- top-p: "0.95"
+- top-k: "20"
+- min-p: "0.0"
 
 ```bash
 llamate add "qwen3:1.7b"
 ```
 - ctx-size: "8192"
+- temp: "0.6"
+- top-p: "0.95"
+- top-k: "20"
+- min-p: "0.0"
 
 ```bash
 llamate add "qwen3:0.6b"
 ```
 - ctx-size: "8192"
+- temp: "0.6"
+- top-p: "0.95"
+- top-k: "20"
+- min-p: "0.0"
 
 ```bash
 llamate add "r1-distill-qwen:32b"
 ```
 - ctx-size: "8192"
+- temp: "0.6"
+- top-p: "0.95"
 
 ```bash
 llamate add "gemma3:27b"
