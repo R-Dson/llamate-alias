@@ -36,7 +36,7 @@ jobs:
           echo "-----------------------------------------------------------"
 
       - name: Run script to generate README.md
-        run: python generate_readme.py
+        run: python create_readme.py
 
       - name: Commit and push if README.md changed
         uses: stefanzweifel/git-auto-commit-action@v5
