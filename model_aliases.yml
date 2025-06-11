@@ -4,6 +4,8 @@
   args:
     ctx-size: "8192"
     jinja: ""
+    temp: "0.8"
+    top-p: "0.95"
 
 "llama3:8b":
   hf_repo: bartowski/Meta-Llama-3.1-8B-Instruct-GGUF
@@ -70,6 +72,7 @@
   hf_file: Mistral-Small-3.1-24B-Instruct-2503-UD-Q4_K_XL.gguf
   args:
     ctx-size: "8192"
+    temp: "0.15"
 
 "devstral:small":
   hf_repo: unsloth/Devstral-Small-2505-GGUF
@@ -82,49 +85,79 @@
   hf_file: Qwen3-32B-UD-Q4_K_XL.gguf
   args:
     ctx-size: "8192"
+    temp: "0.6"
+    top-p: "0.95"
+    top-k: "20"
+    min-p: "0.0"
 
 "qwen3:30b-a3b":
   hf_repo: unsloth/Qwen3-30B-A3B-GGUF
   hf_file: Qwen3-30B-A3B-UD-Q4_K_XL.gguf
   args:
     ctx-size: "8192"
-
+    temp: "0.6"
+    top-p: "0.95"
+    top-k: "20"
+    min-p: "0.0"
+    
 "qwen3:14b":
   hf_repo: unsloth/Qwen3-14B-GGUF
   hf_file: Qwen3-14B-UD-Q4_K_XL.gguf
   args:
     ctx-size: "8192"
-
+    temp: "0.6"
+    top-p: "0.95"
+    top-k: "20"
+    min-p: "0.0"
+    
 "qwen3:8b":
   hf_repo: unsloth/Qwen3-8B-GGUF
   hf_file: Qwen3-8B-UD-Q4_K_XL.gguf
   args:
     ctx-size: "8192"
-
+    temp: "0.6"
+    top-p: "0.95"
+    top-k: "20"
+    min-p: "0.0"
+    
 "qwen3:4b":
   hf_repo: unsloth/Qwen3-4B-GGUF
   hf_file: Qwen3-4B-UD-Q4_K_XL.gguf
   args:
     ctx-size: "8192"
-
+    temp: "0.6"
+    top-p: "0.95"
+    top-k: "20"
+    min-p: "0.0"
+    
 "qwen3:1.7b":
   hf_repo: unsloth/Qwen3-1.7B-GGUF
   hf_file: Qwen3-1.7B-UD-Q4_K_XL.gguf
   args:
     ctx-size: "8192"
-
+    temp: "0.6"
+    top-p: "0.95"
+    top-k: "20"
+    min-p: "0.0"
+    
 "qwen3:0.6b":
   hf_repo: unsloth/Qwen3-0.6B-GGUF
   hf_file: Qwen3-0.6B-UD-Q4_K_XL.gguf
   args:
     ctx-size: "8192"
+    temp: "0.6"
+    top-p: "0.95"
+    top-k: "20"
+    min-p: "0.0"
 
 "r1-distill-qwen:32b":
-  hf_repo: deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+  hf_repo: unsloth/DeepSeek-R1-Distill-Qwen-32B-GGUF
   hf_file: DeepSeek-R1-Distill-Qwen-32B-Q4_K_M.gguf
   args:
     ctx-size: "8192"
-
+    temp: "0.6"
+    top-p: "0.95"
+    
 "gemma3:27b":
   hf_repo: unsloth/gemma-3-27b-it-qat-GGUF
   hf_file: gemma-3-27b-it-qat-UD-Q4_K_XL.gguf
