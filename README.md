@@ -177,3 +177,13 @@ llamate add "qwq:32b"
 - top-k: "40"
 - top-p: "0.95"
 - samplers: "top_k;top_p;min_p;temperature;dry;typ_p;xtc"
+
+```bash
+llamate add "jan-nano"
+```
+- ctx-size: "8192"
+
+```bash
+llamate add "jan-nano:q8"
+```
+- ctx-size: "8192"
