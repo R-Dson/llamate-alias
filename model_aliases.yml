@@ -197,3 +197,14 @@
     top-k: "40"
     top-p: "0.95"
     samplers: "top_k;top_p;min_p;temperature;dry;typ_p;xtc"
+
+"jan-nano":
+  hf_repo: unsloth/Jan-nano-GGUF
+  hf_file: Jan-nano-UD-Q4_K_XL.gguf
+  args:
+    ctx-size: "8192"
+"jan-nano:q8":
+  hf_repo: unsloth/Jan-nano-GGUF
+  hf_file: Jan-nano-UD-Q8_K_XL.gguf
+  args:
+    ctx-size: "8192"
