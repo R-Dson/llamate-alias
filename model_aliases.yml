@@ -208,3 +208,22 @@
   hf_file: Jan-nano-UD-Q8_K_XL.gguf
   args:
     ctx-size: "8192"
+
+"seed-coder:8b":
+  hf_repo: unsloth/Seed-Coder-8B-Instruct-GGUF
+  hf_file: Seed-Coder-8B-Instruct-UD-Q4_K_XL.gguf
+  args:
+    ctx-size: "8192"
+"seed-coder-reasoning:8b":
+  hf_repo: unsloth/Seed-Coder-8B-Reasoning-GGUF
+  hf_file: Seed-Coder-8B-Reasoning-UD-Q4_K_XL.gguf
+  args:
+    ctx-size: "8192"
+
+"deepcoder-14b-preview":
+  hf_repo: bartowski/agentica-org_DeepCoder-14B-Preview-GGUF
+  hf_file: agentica-org_DeepCoder-14B-Preview-Q4_K_M.gguf
+  args:
+    ctx-size: "8192"
+    temp: "0.6"
+    top-p: "0.95"
