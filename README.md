@@ -187,3 +187,20 @@ llamate add "jan-nano"
 llamate add "jan-nano:q8"
 ```
 - ctx-size: "8192"
+
+```bash
+llamate add "seed-coder:8b"
+```
+- ctx-size: "8192"
+
+```bash
+llamate add "seed-coder-reasoning:8b"
+```
+- ctx-size: "8192"
+
+```bash
+llamate add "deepcoder-14b-preview"
+```
+- ctx-size: "8192"
+- temp: "0.6"
+- top-p: "0.95"
