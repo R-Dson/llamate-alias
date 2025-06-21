@@ -37,16 +37,21 @@ def create_readme_from_aliases():
     readme_content.append("You can add these models to your `llamate` setup using the commands shown.\n")
 
     for model_name, details in aliases_data.items():
+        readme_content.append(f"## {model_name}")
         readme_content.append("```bash")  # Start the code block with bash
         readme_content.append(f"llamate add \"{model_name}\"") # Command on a new line
         readme_content.append("```")      # End the code block
+
+        readme_content.append("<details> <summary>parameters</summary>")
+        readme_content.append("")
 
         args_dict = details.get('args', {})
         if args_dict:
             for key, value in args_dict.items():
                 readme_content.append(f'- {key}: "{value}"')
         # If no args_dict or it's empty, no argument lines will be added.
-
+        readme_content.append("")
+        readme_content.append("</details>")
         readme_content.append("")  # Add a blank line for separation after each entry
 
     try:
