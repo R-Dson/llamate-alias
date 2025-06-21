@@ -48,6 +48,17 @@
   hf_file: AceReason-Nemotron-14B-UD-Q4_K_XL.gguf
   args:
     ctx-size: "8192"
+    jinja: ""
+    temp: "0.6"
+    top-p: "0.95"
+"acereason-nemotron:7b":
+  hf_repo: bartowski/nvidia_AceReason-Nemotron-1.1-7B-GGUF
+  hf_file: nvidia_AceReason-Nemotron-1.1-7B-Q4_K_M.gguf
+  args:
+    ctx-size: "8192"
+    jinja: ""
+    temp: "0.6"
+    top-p: "0.95"
 
 "llama3.3-nemotron-super:49b":
   hf_repo: unsloth/Llama-3_3-Nemotron-Super-49B-v1-GGUF
@@ -70,12 +81,21 @@
     top-p: "0.95"
     jinja: ""
 
-"mistral:small-3.1-24b":
+"mistral:small-3.1":
   hf_repo: unsloth/Mistral-Small-3.1-24B-Instruct-2503-GGUF
   hf_file: Mistral-Small-3.1-24B-Instruct-2503-UD-Q4_K_XL.gguf
   args:
     ctx-size: "8192"
     temp: "0.15"
+
+"mistral:small-3.2":
+  hf_repo: unsloth/Mistral-Small-3.2-24B-Instruct-2506-GGUF
+  hf_file: Mistral-Small-3.2-24B-Instruct-2506-UD-Q4_K_XL.gguf
+  args:
+    ctx-size: "8192"
+    temp: "0.15"
+    jinja: ""
+    top-p: "1.00"
 
 "devstral:small":
   hf_repo: unsloth/Devstral-Small-2505-GGUF
@@ -227,3 +247,21 @@
     ctx-size: "8192"
     temp: "0.6"
     top-p: "0.95"
+
+"skywork-swe:32b":
+  hf_repo: bartowski/Skywork_Skywork-SWE-32B-GGUF
+  hf_file: Skywork_Skywork-SWE-32B-Q4_K_M.gguf
+  args:
+    ctx-size: "8192"
+
+"kimi-dev:72b":
+  hf_repo: unsloth/Kimi-Dev-72B-GGUF
+  hf_file: Kimi-Dev-72B-Q4_0.gguf
+  args:
+    ctx-size: "8192"
+
+"openbuddy-r1-distill-preview:32b":
+  hf_repo: bartowski/OpenBuddy_OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-GGUF
+  hf_file: OpenBuddy_OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-Q4_K_M.gguf
+  args:
+    ctx-size: "8192"
