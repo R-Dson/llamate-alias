@@ -37,7 +37,13 @@ def create_readme_from_aliases():
     readme_content.append("You can add these models to your `llamate` setup using the commands shown.\n")
 
     for model_name, details in aliases_data.items():
-        readme_content.append(f"## {model_name}")
+        hf_repo_id = details.get('hf_repo')
+
+        if hf_repo_id:
+            readme_content.append(f"## [{model_name}](https://huggingface.co/{hf_repo_id})")
+        else:
+            # Fallback if hf_repo is not defined (though it should be based on your structure)
+            readme_content.append(f"## {model_name}")
         readme_content.append("```bash")  # Start the code block with bash
         readme_content.append(f"llamate add \"{model_name}\"") # Command on a new line
         readme_content.append("```")      # End the code block
