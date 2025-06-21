@@ -60,41 +60,4 @@ def create_readme_from_aliases():
 
 
 if __name__ == "__main__":
-    # Create a dummy model_aliases.yml for testing if it doesn't exist
-    if not os.path.exists(INPUT_YAML_FILE):
-        print(f"'{INPUT_YAML_FILE}' not found. Creating a sample file for demonstration.")
-        sample_yaml_content = """
-"phi4:reasoning-plus":
-  hf_repo: unsloth/Phi-4-reasoning-plus-GGUF
-  hf_file: Phi-4-reasoning-plus-UD-Q4_K_XL.gguf
-  args:
-    ctx-size: "8192"
-    jinja: ""
-
-"llama3:8b":
-  hf_repo: bartowski/Meta-Llama-3.1-8B-Instruct-GGUF
-  hf_file: Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf
-  args:
-    ctx-size: "8192"
-
-"llama3.1:8b":
-  hf_repo: unsloth/Llama-3.1-8B-Instruct-GGUF
-  hf_file: Llama-3.1-8B-Instruct-UD-Q4_K_XL.gguf
-  args:
-    ctx-size: "8192"
-    another-arg: "test value"
-
-"llama3.2:1b":
-  hf_repo: unsloth/Llama-3.2-1B-Instruct-GGUF
-  hf_file: Llama-3.2-1B-Instruct-UD-Q4_K_XL.gguf
-  args:
-    ctx-size: "8192"
-
-"no-args-model":
-  hf_repo: some/repo
-  hf_file: some_file.gguf
-"""
-        with open(INPUT_YAML_FILE, 'w', encoding='utf-8') as f_sample:
-            f_sample.write(sample_yaml_content)
-
     create_readme_from_aliases()
