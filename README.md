@@ -46,6 +46,17 @@ llamate add "llama3.1-nemotron-nano:8b"
 llamate add "acereason-nemotron:14b"
 ```
 - ctx-size: "8192"
+- jinja: ""
+- temp: "0.6"
+- top-p: "0.95"
+
+```bash
+llamate add "acereason-nemotron:7b"
+```
+- ctx-size: "8192"
+- jinja: ""
+- temp: "0.6"
+- top-p: "0.95"
 
 ```bash
 llamate add "llama3.3-nemotron-super:49b"
@@ -66,10 +77,18 @@ llamate add "magistral:small"
 - jinja: ""
 
 ```bash
-llamate add "mistral:small-3.1-24b"
+llamate add "mistral:small-3.1"
 ```
 - ctx-size: "8192"
 - temp: "0.15"
+
+```bash
+llamate add "mistral:small-3.2"
+```
+- ctx-size: "8192"
+- temp: "0.15"
+- jinja: ""
+- top-p: "1.00"
 
 ```bash
 llamate add "devstral:small"
@@ -204,3 +223,18 @@ llamate add "deepcoder-14b-preview"
 - ctx-size: "8192"
 - temp: "0.6"
 - top-p: "0.95"
+
+```bash
+llamate add "skywork-swe:32b"
+```
+- ctx-size: "8192"
+
+```bash
+llamate add "kimi-dev:72b"
+```
+- ctx-size: "8192"
+
+```bash
+llamate add "openbuddy-r1-distill-preview:32b"
+```
+- ctx-size: "8192"
