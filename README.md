@@ -29,7 +29,7 @@ llamate add "llama3:8b"
 
 ## [llama3.1:8b](https://huggingface.co/unsloth/Llama-3.1-8B-Instruct-GGUF)
 ```bash
-llamate add "llama3.1:8b"
+llamate add "llama3-1:8b"
 ```
 <details> <summary>parameters</summary>
 
@@ -39,7 +39,7 @@ llamate add "llama3.1:8b"
 
 ## [llama3.2:1b](https://huggingface.co/unsloth/Llama-3.2-1B-Instruct-GGUF)
 ```bash
-llamate add "llama3.2:1b"
+llamate add "llama3-2:1b"
 ```
 <details> <summary>parameters</summary>
 
@@ -49,7 +49,7 @@ llamate add "llama3.2:1b"
 
 ## [llama3.2:3b](https://huggingface.co/unsloth/Llama-3.2-3B-Instruct-GGUF)
 ```bash
-llamate add "llama3.2:3b"
+llamate add "llama3-2:3b"
 ```
 <details> <summary>parameters</summary>
 
@@ -59,7 +59,7 @@ llamate add "llama3.2:3b"
 
 ## [llama3.3:70b](https://huggingface.co/unsloth/Llama-3.3-70B-Instruct-GGUF)
 ```bash
-llamate add "llama3.3:70b"
+llamate add "llama3-3:70b"
 ```
 <details> <summary>parameters</summary>
 
@@ -69,7 +69,7 @@ llamate add "llama3.3:70b"
 
 ## [llama3.1-nemotron-nano:8b](https://huggingface.co/unsloth/Llama-3.1-Nemotron-Nano-8B-v1-GGUF)
 ```bash
-llamate add "llama3.1-nemotron-nano:8b"
+llamate add "llama3-1-nemotron-nano:8b"
 ```
 <details> <summary>parameters</summary>
 
@@ -105,7 +105,7 @@ llamate add "acereason-nemotron:7b"
 
 ## [llama3.3-nemotron-super:49b](https://huggingface.co/unsloth/Llama-3_3-Nemotron-Super-49B-v1-GGUF)
 ```bash
-llamate add "llama3.3-nemotron-super:49b"
+llamate add "llama3-3-nemotron-super:49b"
 ```
 <details> <summary>parameters</summary>
 
@@ -138,7 +138,7 @@ llamate add "magistral:small"
 
 ## [mistral:small-3.1](https://huggingface.co/unsloth/Mistral-Small-3.1-24B-Instruct-2503-GGUF)
 ```bash
-llamate add "mistral:small-3.1"
+llamate add "mistral:small-3-1"
 ```
 <details> <summary>parameters</summary>
 
@@ -149,7 +149,7 @@ llamate add "mistral:small-3.1"
 
 ## [mistral:small-3.2](https://huggingface.co/unsloth/Mistral-Small-3.2-24B-Instruct-2506-GGUF)
 ```bash
-llamate add "mistral:small-3.2"
+llamate add "mistral:small-3-2"
 ```
 <details> <summary>parameters</summary>
 
@@ -242,7 +242,7 @@ llamate add "qwen3:4b"
 
 ## [qwen3:1.7b](https://huggingface.co/unsloth/Qwen3-1.7B-GGUF)
 ```bash
-llamate add "qwen3:1.7b"
+llamate add "qwen3:1-7b"
 ```
 <details> <summary>parameters</summary>
 
@@ -256,7 +256,7 @@ llamate add "qwen3:1.7b"
 
 ## [qwen3:0.6b](https://huggingface.co/unsloth/Qwen3-0.6B-GGUF)
 ```bash
-llamate add "qwen3:0.6b"
+llamate add "qwen3:0-6b"
 ```
 <details> <summary>parameters</summary>
 
