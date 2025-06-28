@@ -27,9 +27,9 @@ llamate add "llama3:8b"
 
 </details>
 
-## [llama3.1:8b](https://huggingface.co/unsloth/Llama-3.1-8B-Instruct-GGUF)
+## [llama3_1:8b](https://huggingface.co/unsloth/Llama-3.1-8B-Instruct-GGUF)
 ```bash
-llamate add "llama3-1:8b"
+llamate add "llama3_1:8b"
 ```
 <details> <summary>parameters</summary>
 
@@ -37,9 +37,9 @@ llamate add "llama3-1:8b"
 
 </details>
 
-## [llama3.2:1b](https://huggingface.co/unsloth/Llama-3.2-1B-Instruct-GGUF)
+## [llama3_2:1b](https://huggingface.co/unsloth/Llama-3.2-1B-Instruct-GGUF)
 ```bash
-llamate add "llama3-2:1b"
+llamate add "llama3_2:1b"
 ```
 <details> <summary>parameters</summary>
 
@@ -47,9 +47,9 @@ llamate add "llama3-2:1b"
 
 </details>
 
-## [llama3.2:3b](https://huggingface.co/unsloth/Llama-3.2-3B-Instruct-GGUF)
+## [llama3_2:3b](https://huggingface.co/unsloth/Llama-3.2-3B-Instruct-GGUF)
 ```bash
-llamate add "llama3-2:3b"
+llamate add "llama3_2:3b"
 ```
 <details> <summary>parameters</summary>
 
@@ -57,9 +57,9 @@ llamate add "llama3-2:3b"
 
 </details>
 
-## [llama3.3:70b](https://huggingface.co/unsloth/Llama-3.3-70B-Instruct-GGUF)
+## [llama3_3:70b](https://huggingface.co/unsloth/Llama-3.3-70B-Instruct-GGUF)
 ```bash
-llamate add "llama3-3:70b"
+llamate add "llama3_3:70b"
 ```
 <details> <summary>parameters</summary>
 
@@ -67,9 +67,9 @@ llamate add "llama3-3:70b"
 
 </details>
 
-## [llama3.1-nemotron-nano:8b](https://huggingface.co/unsloth/Llama-3.1-Nemotron-Nano-8B-v1-GGUF)
+## [llama3_1-nemotron-nano:8b](https://huggingface.co/unsloth/Llama-3.1-Nemotron-Nano-8B-v1-GGUF)
 ```bash
-llamate add "llama3-1-nemotron-nano:8b"
+llamate add "llama3_1-nemotron-nano:8b"
 ```
 <details> <summary>parameters</summary>
 
@@ -103,9 +103,9 @@ llamate add "acereason-nemotron:7b"
 
 </details>
 
-## [llama3.3-nemotron-super:49b](https://huggingface.co/unsloth/Llama-3_3-Nemotron-Super-49B-v1-GGUF)
+## [llama3_3-nemotron-super:49b](https://huggingface.co/unsloth/Llama-3_3-Nemotron-Super-49B-v1-GGUF)
 ```bash
-llamate add "llama3-3-nemotron-super:49b"
+llamate add "llama3_3-nemotron-super:49b"
 ```
 <details> <summary>parameters</summary>
 
@@ -136,9 +136,9 @@ llamate add "magistral:small"
 
 </details>
 
-## [mistral:small-3.1](https://huggingface.co/unsloth/Mistral-Small-3.1-24B-Instruct-2503-GGUF)
+## [mistral:small-3_1](https://huggingface.co/unsloth/Mistral-Small-3.1-24B-Instruct-2503-GGUF)
 ```bash
-llamate add "mistral:small-3-1"
+llamate add "mistral:small-3_1"
 ```
 <details> <summary>parameters</summary>
 
@@ -147,9 +147,9 @@ llamate add "mistral:small-3-1"
 
 </details>
 
-## [mistral:small-3.2](https://huggingface.co/unsloth/Mistral-Small-3.2-24B-Instruct-2506-GGUF)
+## [mistral:small-3_2](https://huggingface.co/unsloth/Mistral-Small-3.2-24B-Instruct-2506-GGUF)
 ```bash
-llamate add "mistral:small-3-2"
+llamate add "mistral:small-3_2"
 ```
 <details> <summary>parameters</summary>
 
@@ -240,9 +240,9 @@ llamate add "qwen3:4b"
 
 </details>
 
-## [qwen3:1.7b](https://huggingface.co/unsloth/Qwen3-1.7B-GGUF)
+## [qwen3:1_7b](https://huggingface.co/unsloth/Qwen3-1.7B-GGUF)
 ```bash
-llamate add "qwen3:1-7b"
+llamate add "qwen3:1_7b"
 ```
 <details> <summary>parameters</summary>
 
@@ -254,9 +254,9 @@ llamate add "qwen3:1-7b"
 
 </details>
 
-## [qwen3:0.6b](https://huggingface.co/unsloth/Qwen3-0.6B-GGUF)
+## [qwen3:0_6b](https://huggingface.co/unsloth/Qwen3-0.6B-GGUF)
 ```bash
-llamate add "qwen3:0-6b"
+llamate add "qwen3:0_6b"
 ```
 <details> <summary>parameters</summary>
 
