@@ -25,12 +25,6 @@
   args:
     ctx-size: "8192"
 
-"":
-  hf_repo: nvidia/OpenCodeReasoning-Nemotron-1.1-32B
-  hf_file: 
-  args:
-    ctx-size: "8192"
-
 "phi4:reasoning-plus":
   hf_repo: unsloth/Phi-4-reasoning-plus-GGUF
   hf_file: Phi-4-reasoning-plus-UD-Q4_K_XL.gguf
