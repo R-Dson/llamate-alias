@@ -17,6 +17,46 @@ llamate add "hunyuan:a13b"
 
 </details>
 
+## [code-nemotron:32b](https://huggingface.co/mradermacher/OpenCodeReasoning-Nemotron-1.1-32B-GGUF)
+```bash
+llamate add "code-nemotron:32b"
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+
+</details>
+
+## [code-nemotron:14b](https://huggingface.co/mradermacher/OpenCodeReasoning-Nemotron-1.1-14B-GGUF)
+```bash
+llamate add "code-nemotron:14b"
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+
+</details>
+
+## [code-nemotron:7b](https://huggingface.co/mradermacher/OpenCodeReasoning-Nemotron-1.1-7B-GGUF)
+```bash
+llamate add "code-nemotron:7b"
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+
+</details>
+
+## [](https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-1.1-32B)
+```bash
+llamate add ""
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+
+</details>
+
 ## [phi4:reasoning-plus](https://huggingface.co/unsloth/Phi-4-reasoning-plus-GGUF)
 ```bash
 llamate add "phi4:reasoning-plus"
