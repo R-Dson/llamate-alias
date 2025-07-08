@@ -45,7 +45,7 @@ def create_readme_from_aliases():
             # Fallback if hf_repo is not defined (though it should be based on your structure)
             readme_content.append(f"## {model_name}")
         readme_content.append("```bash")  # Start the code block with bash
-        readme_content.append(f"llamate add \"{model_name}\"") # Command on a new line
+        readme_content.append(f"llamate add {model_name}") # Command on a new line
         readme_content.append("```")      # End the code block
 
         readme_content.append("<details> <summary>parameters</summary>")
