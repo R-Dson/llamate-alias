@@ -47,16 +47,6 @@ llamate add code-nemotron:7b
 
 </details>
 
-## [](https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-1.1-32B)
-```bash
-llamate add 
-```
-<details> <summary>parameters</summary>
-
-- ctx-size: "8192"
-
-</details>
-
 ## [phi4:reasoning-plus](https://huggingface.co/unsloth/Phi-4-reasoning-plus-GGUF)
 ```bash
 llamate add phi4:reasoning-plus
