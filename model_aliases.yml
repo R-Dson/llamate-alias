@@ -7,6 +7,30 @@
     top-k: 20
     top-p:: 0.7
 
+"code-nemotron:32b":
+  hf_repo: mradermacher/OpenCodeReasoning-Nemotron-1.1-32B-GGUF
+  hf_file: OpenCodeReasoning-Nemotron-1.1-32B.Q4_K_M.gguf
+  args:
+    ctx-size: "8192"
+
+"code-nemotron:14b":
+  hf_repo: mradermacher/OpenCodeReasoning-Nemotron-1.1-14B-GGUF
+  hf_file: OpenCodeReasoning-Nemotron-1.1-14B.Q4_K_M.gguf
+  args:
+    ctx-size: "8192"
+
+"code-nemotron:7b":
+  hf_repo: mradermacher/OpenCodeReasoning-Nemotron-1.1-7B-GGUF
+  hf_file: OpenCodeReasoning-Nemotron-1.1-7B.Q4_K_M.gguf
+  args:
+    ctx-size: "8192"
+
+"":
+  hf_repo: nvidia/OpenCodeReasoning-Nemotron-1.1-32B
+  hf_file: 
+  args:
+    ctx-size: "8192"
+
 "phi4:reasoning-plus":
   hf_repo: unsloth/Phi-4-reasoning-plus-GGUF
   hf_file: Phi-4-reasoning-plus-UD-Q4_K_XL.gguf
