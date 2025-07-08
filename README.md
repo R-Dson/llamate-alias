@@ -4,6 +4,19 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [hunyuan:a13b](https://huggingface.co/lmstudio-community/Hunyuan-A13B-Instruct-GGUF)
+```bash
+llamate add "hunyuan:a13b"
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- repeat-penalty: "1.05"
+- top-k: "20"
+- top-p:: "0.7"
+
+</details>
+
 ## [phi4:reasoning-plus](https://huggingface.co/unsloth/Phi-4-reasoning-plus-GGUF)
 ```bash
 llamate add "phi4:reasoning-plus"
@@ -412,16 +425,6 @@ llamate add "kimi-dev:72b"
 ## [openbuddy-r1-distill-preview:32b](https://huggingface.co/bartowski/OpenBuddy_OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-GGUF)
 ```bash
 llamate add "openbuddy-r1-distill-preview:32b"
-```
-<details> <summary>parameters</summary>
-
-- ctx-size: "8192"
-
-</details>
-
-## [hunyuan:a13b](https://huggingface.co/lmstudio-community/Hunyuan-A13B-Instruct-GGUF)
-```bash
-llamate add "hunyuan:a13b"
 ```
 <details> <summary>parameters</summary>
 
