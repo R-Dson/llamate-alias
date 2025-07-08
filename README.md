@@ -418,3 +418,13 @@ llamate add "openbuddy-r1-distill-preview:32b"
 - ctx-size: "8192"
 
 </details>
+
+## [hunyuan:a13b](https://huggingface.co/lmstudio-community/Hunyuan-A13B-Instruct-GGUF)
+```bash
+llamate add "hunyuan:a13b"
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+
+</details>
