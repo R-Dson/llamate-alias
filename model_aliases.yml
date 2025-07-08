@@ -1,3 +1,12 @@
+"hunyuan:a13b":
+  hf_repo: lmstudio-community/Hunyuan-A13B-Instruct-GGUF
+  hf_file: Hunyuan-A13B-Instruct-Q4_K_M.gguf
+  args:
+    ctx-size: "8192"
+    repeat-penalty: 1.05
+    top-k: 20
+    top-p:: 0.7
+
 "phi4:reasoning-plus":
   hf_repo: unsloth/Phi-4-reasoning-plus-GGUF
   hf_file: Phi-4-reasoning-plus-UD-Q4_K_XL.gguf
@@ -263,11 +272,5 @@
 "openbuddy-r1-distill-preview:32b":
   hf_repo: bartowski/OpenBuddy_OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-GGUF
   hf_file: OpenBuddy_OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-Q4_K_M.gguf
-  args:
-    ctx-size: "8192"
-
-"hunyuan:a13b":
-  hf_repo: lmstudio-community/Hunyuan-A13B-Instruct-GGUF
-  hf_file: Hunyuan-A13B-Instruct-Q4_K_M.gguf
   args:
     ctx-size: "8192"
