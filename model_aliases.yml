@@ -265,3 +265,9 @@
   hf_file: OpenBuddy_OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-Q4_K_M.gguf
   args:
     ctx-size: "8192"
+
+"hunyuan:a13b":
+  hf_repo: lmstudio-community/Hunyuan-A13B-Instruct-GGUF
+  hf_file: Hunyuan-A13B-Instruct-Q4_K_M.gguf
+  args:
+    ctx-size: "8192"
