@@ -4,7 +4,7 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
-## [hunyuan:a13b](https://huggingface.co/lmstudio-community/Hunyuan-A13B-Instruct-GGUF)
+## [hunyuan:a13b](https://huggingface.co/unsloth/Hunyuan-A13B-Instruct-GGUF)
 ```bash
 llamate add hunyuan:a13b
 ```
@@ -13,7 +13,9 @@ llamate add hunyuan:a13b
 - ctx-size: "8192"
 - repeat-penalty: "1.05"
 - top-k: "20"
-- top-p:: "0.7"
+- top-p: "0.8"
+- temp: "0.7"
+- jinja: ""
 
 </details>
 
@@ -24,6 +26,9 @@ llamate add code-nemotron:32b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- top-p: "0.95"
+- temp: "0.6"
+- jinja: ""
 
 </details>
 
@@ -34,6 +39,9 @@ llamate add code-nemotron:14b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- top-p: "0.95"
+- temp: "0.6"
+- jinja: ""
 
 </details>
 
@@ -44,6 +52,9 @@ llamate add code-nemotron:7b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- top-p: "0.95"
+- temp: "0.6"
+- jinja: ""
 
 </details>
 
