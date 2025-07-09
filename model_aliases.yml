@@ -1,29 +1,40 @@
 "hunyuan:a13b":
-  hf_repo: lmstudio-community/Hunyuan-A13B-Instruct-GGUF
-  hf_file: Hunyuan-A13B-Instruct-Q4_K_M.gguf
+  hf_repo: unsloth/Hunyuan-A13B-Instruct-GGUF
+  hf_file: Hunyuan-A13B-Instruct-UD-Q4_K_XL.gguf
   args:
     ctx-size: "8192"
-    repeat-penalty: 1.05
-    top-k: 20
-    top-p:: 0.7
+    repeat-penalty: "1.05"
+    top-k: "20"
+    top-p: "0.8"
+    temp: "0.7"
+    jinja: ""
 
 "code-nemotron:32b":
   hf_repo: mradermacher/OpenCodeReasoning-Nemotron-1.1-32B-GGUF
   hf_file: OpenCodeReasoning-Nemotron-1.1-32B.Q4_K_M.gguf
   args:
     ctx-size: "8192"
+    top-p: "0.95"
+    temp: "0.6"
+    jinja: ""
 
 "code-nemotron:14b":
   hf_repo: mradermacher/OpenCodeReasoning-Nemotron-1.1-14B-GGUF
   hf_file: OpenCodeReasoning-Nemotron-1.1-14B.Q4_K_M.gguf
   args:
     ctx-size: "8192"
+    top-p: "0.95"
+    temp: "0.6"
+    jinja: ""
 
 "code-nemotron:7b":
   hf_repo: mradermacher/OpenCodeReasoning-Nemotron-1.1-7B-GGUF
   hf_file: OpenCodeReasoning-Nemotron-1.1-7B.Q4_K_M.gguf
   args:
     ctx-size: "8192"
+    top-p: "0.95"
+    temp: "0.6"
+    jinja: ""
 
 "phi4:reasoning-plus":
   hf_repo: unsloth/Phi-4-reasoning-plus-GGUF
