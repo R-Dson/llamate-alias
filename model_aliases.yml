@@ -136,10 +136,12 @@
     top-p: "1.00"
 
 "devstral:small":
-  hf_repo: unsloth/Devstral-Small-2505-GGUF
-  hf_file: Devstral-Small-2505-UD-Q4_K_XL.gguf
+  hf_repo: unsloth/Devstral-Small-2507-GGUF
+  hf_file: Devstral-Small-2507-UD-Q4_K_XL.gguf
   args:
     ctx-size: "8192"
+    jinja: ""
+    temp: "0.15"
 
 "qwen3:32b":
   hf_repo: unsloth/Qwen3-32B-GGUF
