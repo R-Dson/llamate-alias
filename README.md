@@ -214,13 +214,15 @@ llamate add mistral:small-3_2
 
 </details>
 
-## [devstral:small](https://huggingface.co/unsloth/Devstral-Small-2505-GGUF)
+## [devstral:small](https://huggingface.co/unsloth/Devstral-Small-2507-GGUF)
 ```bash
 llamate add devstral:small
 ```
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- temp: "0.15"
 
 </details>
 
