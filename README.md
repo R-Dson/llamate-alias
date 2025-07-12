@@ -4,6 +4,16 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [kimi-dev:72b](https://huggingface.co/unsloth/Kimi-Dev-72B-GGUF)
+```bash
+llamate add kimi-dev:72b
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+
+</details>
+
 ## [hunyuan:a13b](https://huggingface.co/unsloth/Hunyuan-A13B-Instruct-GGUF)
 ```bash
 llamate add hunyuan:a13b
@@ -448,16 +458,6 @@ llamate add deepcoder-14b-preview
 ## [skywork-swe:32b](https://huggingface.co/bartowski/Skywork_Skywork-SWE-32B-GGUF)
 ```bash
 llamate add skywork-swe:32b
-```
-<details> <summary>parameters</summary>
-
-- ctx-size: "8192"
-
-</details>
-
-## [kimi-dev:72b](https://huggingface.co/unsloth/Kimi-Dev-72B-GGUF)
-```bash
-llamate add kimi-dev:72b
 ```
 <details> <summary>parameters</summary>
 
