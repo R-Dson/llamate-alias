@@ -1,3 +1,9 @@
+"kimi-dev:72b":
+  hf_repo: unsloth/Kimi-Dev-72B-GGUF
+  hf_file: Kimi-Dev-72B-IQ4_XS.gguf
+  args:
+    "ctz-size": "8192"
+
 "hunyuan:a13b":
   hf_repo: unsloth/Hunyuan-A13B-Instruct-GGUF
   hf_file: Hunyuan-A13B-Instruct-UD-Q4_K_XL.gguf
