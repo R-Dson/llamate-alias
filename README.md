@@ -4,6 +4,20 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [exaone-4:32b](https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B-GGUF)
+```bash
+llamate add exaone-4:32b
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- top-p: "0.95"
+- temp: "0.6"
+- jinja: ""
+- flash-attn: ""
+
+</details>
+
 ## [kimi-dev:72b](https://huggingface.co/unsloth/Kimi-Dev-72B-GGUF)
 ```bash
 llamate add kimi-dev:72b
@@ -11,6 +25,8 @@ llamate add kimi-dev:72b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -26,6 +42,7 @@ llamate add hunyuan:a13b
 - top-p: "0.8"
 - temp: "0.7"
 - jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -39,6 +56,7 @@ llamate add code-nemotron:32b
 - top-p: "0.95"
 - temp: "0.6"
 - jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -52,6 +70,7 @@ llamate add code-nemotron:14b
 - top-p: "0.95"
 - temp: "0.6"
 - jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -65,6 +84,7 @@ llamate add code-nemotron:7b
 - top-p: "0.95"
 - temp: "0.6"
 - jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -78,6 +98,7 @@ llamate add phi4:reasoning-plus
 - jinja: ""
 - temp: "0.8"
 - top-p: "0.95"
+- flash-attn: ""
 
 </details>
 
@@ -88,6 +109,8 @@ llamate add llama3:8b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -98,6 +121,8 @@ llamate add llama3_1:8b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -108,6 +133,8 @@ llamate add llama3_2:1b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -118,6 +145,8 @@ llamate add llama3_2:3b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -128,6 +157,8 @@ llamate add llama3_3:70b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -138,6 +169,8 @@ llamate add llama3_1-nemotron-nano:8b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -151,6 +184,7 @@ llamate add acereason-nemotron:14b
 - jinja: ""
 - temp: "0.6"
 - top-p: "0.95"
+- flash-attn: ""
 
 </details>
 
@@ -164,6 +198,7 @@ llamate add acereason-nemotron:7b
 - jinja: ""
 - temp: "0.6"
 - top-p: "0.95"
+- flash-attn: ""
 
 </details>
 
@@ -174,6 +209,8 @@ llamate add llama3_3-nemotron-super:49b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -184,6 +221,8 @@ llamate add r1-distill:8b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -197,6 +236,7 @@ llamate add magistral:small
 - temp: "0.7"
 - top-p: "0.95"
 - jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -208,6 +248,8 @@ llamate add mistral:small-3_1
 
 - ctx-size: "8192"
 - temp: "0.15"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -221,6 +263,7 @@ llamate add mistral:small-3_2
 - temp: "0.15"
 - jinja: ""
 - top-p: "1.00"
+- flash-attn: ""
 
 </details>
 
@@ -233,6 +276,7 @@ llamate add devstral:small
 - ctx-size: "8192"
 - jinja: ""
 - temp: "0.15"
+- flash-attn: ""
 
 </details>
 
@@ -247,6 +291,8 @@ llamate add qwen3:32b
 - top-p: "0.95"
 - top-k: "20"
 - min-p: "0.0"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -261,6 +307,8 @@ llamate add qwen3:30b-a3b
 - top-p: "0.95"
 - top-k: "20"
 - min-p: "0.0"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -275,6 +323,8 @@ llamate add qwen3:14b
 - top-p: "0.95"
 - top-k: "20"
 - min-p: "0.0"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -289,6 +339,8 @@ llamate add qwen3:8b
 - top-p: "0.95"
 - top-k: "20"
 - min-p: "0.0"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -303,6 +355,8 @@ llamate add qwen3:4b
 - top-p: "0.95"
 - top-k: "20"
 - min-p: "0.0"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -317,6 +371,8 @@ llamate add qwen3:1_7b
 - top-p: "0.95"
 - top-k: "20"
 - min-p: "0.0"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -331,6 +387,8 @@ llamate add qwen3:0_6b
 - top-p: "0.95"
 - top-k: "20"
 - min-p: "0.0"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -343,6 +401,8 @@ llamate add r1-distill-qwen:32b
 - ctx-size: "8192"
 - temp: "0.6"
 - top-p: "0.95"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -353,6 +413,8 @@ llamate add gemma3:27b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -363,6 +425,8 @@ llamate add gemma3:12b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -373,6 +437,8 @@ llamate add gemma3:4b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -383,6 +449,8 @@ llamate add gemma3:1b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -400,6 +468,8 @@ llamate add qwq:32b
 - top-k: "40"
 - top-p: "0.95"
 - samplers: "top_k;top_p;min_p;temperature;dry;typ_p;xtc"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -410,6 +480,8 @@ llamate add jan-nano
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -420,6 +492,8 @@ llamate add jan-nano:q8
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -430,6 +504,8 @@ llamate add seed-coder:8b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -440,6 +516,8 @@ llamate add seed-coder-reasoning:8b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -452,6 +530,8 @@ llamate add deepcoder-14b-preview
 - ctx-size: "8192"
 - temp: "0.6"
 - top-p: "0.95"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -462,6 +542,8 @@ llamate add skywork-swe:32b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
 
@@ -472,5 +554,7 @@ llamate add openbuddy-r1-distill-preview:32b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
 
 </details>
