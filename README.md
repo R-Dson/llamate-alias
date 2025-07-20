@@ -4,6 +4,54 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [openreasoning-nemotron:32b](https://huggingface.co/bartowski/nvidia_OpenReasoning-Nemotron-32B-GGUF)
+```bash
+llamate add openreasoning-nemotron:32b
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
+
+</details>
+
+## [openreasoning-nemotron:14b](https://huggingface.co/bartowski/nvidia_OpenReasoning-Nemotron-14B-GGUF)
+```bash
+llamate add openreasoning-nemotron:14b
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
+
+</details>
+
+## [openreasoning-nemotron:7b](https://huggingface.co/bartowski/nvidia_OpenReasoning-Nemotron-7B-GGUF)
+```bash
+llamate add openreasoning-nemotron:7b
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
+
+</details>
+
+## [openreasoning-nemotron:1.5b](https://huggingface.co/bartowski/nvidia_OpenReasoning-Nemotron-1.5B-GGUF)
+```bash
+llamate add openreasoning-nemotron:1.5b
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
+
+</details>
+
 ## [exaone-4:32b](https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B-GGUF)
 ```bash
 llamate add exaone-4:32b
@@ -13,18 +61,6 @@ llamate add exaone-4:32b
 - ctx-size: "8192"
 - top-p: "0.95"
 - temp: "0.6"
-- jinja: ""
-- flash-attn: ""
-
-</details>
-
-## [kimi-dev:72b](https://huggingface.co/unsloth/Kimi-Dev-72B-GGUF)
-```bash
-llamate add kimi-dev:72b
-```
-<details> <summary>parameters</summary>
-
-- ctx-size: "8192"
 - jinja: ""
 - flash-attn: ""
 
@@ -538,6 +574,18 @@ llamate add deepcoder-14b-preview
 ## [skywork-swe:32b](https://huggingface.co/bartowski/Skywork_Skywork-SWE-32B-GGUF)
 ```bash
 llamate add skywork-swe:32b
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
+
+</details>
+
+## [kimi-dev:72b](https://huggingface.co/unsloth/Kimi-Dev-72B-GGUF)
+```bash
+llamate add kimi-dev:72b
 ```
 <details> <summary>parameters</summary>
 
