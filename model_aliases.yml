@@ -1,3 +1,36 @@
+"openreasoning-nemotron:32b":
+  hf_repo: bartowski/nvidia_OpenReasoning-Nemotron-32B-GGUF
+  hf_file: nvidia_OpenReasoning-Nemotron-32B-IQ4_XS.gguf
+  args:
+    ctx-size: "8192"
+    jinja: ""
+    flash-attn: ""
+
+"openreasoning-nemotron:14b":
+  hf_repo: bartowski/nvidia_OpenReasoning-Nemotron-14B-GGUF
+  hf_file: nvidia_OpenReasoning-Nemotron-14B-IQ4_XS.gguf
+  args:
+    ctx-size: "8192"
+    jinja: ""
+    flash-attn: ""
+
+"openreasoning-nemotron:7b":
+  hf_repo: bartowski/nvidia_OpenReasoning-Nemotron-7B-GGUF
+  hf_file: nvidia_OpenReasoning-Nemotron-7B-IQ4_XS.gguf
+  args:
+    ctx-size: "8192"
+    jinja: ""
+    flash-attn: ""
+
+"openreasoning-nemotron:1.5b":
+  hf_repo: bartowski/nvidia_OpenReasoning-Nemotron-1.5B-GGUF
+  hf_file: nvidia_OpenReasoning-Nemotron-1.5B-Q4_K_M.gguf
+  args:
+    ctx-size: "8192"
+    jinja: ""
+    flash-attn: ""
+  
+
 "exaone-4:32b":
   hf_repo: LGAI-EXAONE/EXAONE-4.0-32B-GGUF
   hf_file: EXAONE-4.0-32B-IQ4_XS.gguf
@@ -6,13 +39,6 @@
     top-p: "0.95"
     temp: "0.6"
     jinja: ""
-    flash-attn: ""
-
-"kimi-dev:72b":
-  hf_repo: unsloth/Kimi-Dev-72B-GGUF
-  hf_file: Kimi-Dev-72B-IQ4_XS.gguf
-  args:
-    ctx-size: "8192"
     flash-attn: ""
 
 "hunyuan:a13b":
