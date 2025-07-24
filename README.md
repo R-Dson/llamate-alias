@@ -4,6 +4,20 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [magistral:small](https://huggingface.co/lmstudio-community/Magistral-Small-2507-GGUF)
+```bash
+llamate add magistral:small
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- temp: "0.7"
+- top-p: "0.95"
+- jinja: ""
+- flash-attn: ""
+
+</details>
+
 ## [openreasoning-nemotron:32b](https://huggingface.co/bartowski/nvidia_OpenReasoning-Nemotron-32B-GGUF)
 ```bash
 llamate add openreasoning-nemotron:32b
@@ -257,20 +271,6 @@ llamate add r1-distill:8b
 <details> <summary>parameters</summary>
 
 - ctx-size: "8192"
-- jinja: ""
-- flash-attn: ""
-
-</details>
-
-## [magistral:small](https://huggingface.co/unsloth/Magistral-Small-2506-GGUF)
-```bash
-llamate add magistral:small
-```
-<details> <summary>parameters</summary>
-
-- ctx-size: "8192"
-- temp: "0.7"
-- top-p: "0.95"
 - jinja: ""
 - flash-attn: ""
 
