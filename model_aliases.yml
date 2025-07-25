@@ -7,8 +7,8 @@
     flash-attn: ""
 
 "magistral:small":
-  hf_repo: lmstudio-community/Magistral-Small-2507-GGUF
-  hf_file: Magistral-Small-2507-Q4_K_M.gguf
+  hf_repo: unsloth/Magistral-Small-2507-GGUF
+  hf_file: Magistral-Small-2507-UD-Q4_K_XL.gguf
   args:
     ctx-size: "8192"
     temp: "0.7"
