@@ -16,7 +16,7 @@ llamate add glm-4.1:9b
 
 </details>
 
-## [magistral:small](https://huggingface.co/lmstudio-community/Magistral-Small-2507-GGUF)
+## [magistral:small](https://huggingface.co/unsloth/Magistral-Small-2507-GGUF)
 ```bash
 llamate add magistral:small
 ```
