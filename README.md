@@ -4,6 +4,18 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [glm-4.1:9b](https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF)
+```bash
+llamate add glm-4.1:9b
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- jinja: ""
+- flash-attn: ""
+
+</details>
+
 ## [magistral:small](https://huggingface.co/lmstudio-community/Magistral-Small-2507-GGUF)
 ```bash
 llamate add magistral:small
