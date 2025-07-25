@@ -1,3 +1,11 @@
+"glm-4.1:9b":
+  hf_repo: unsloth/GLM-4.1V-9B-Thinking-GGUF
+  hf_file: GLM-4.1V-9B-Thinking-UD-Q4_K_XL.gguf
+  args:
+    ctx-size: "8192"
+    jinja: ""
+    flash-attn: ""
+
 "magistral:small":
   hf_repo: lmstudio-community/Magistral-Small-2507-GGUF
   hf_file: Magistral-Small-2507-Q4_K_M.gguf
