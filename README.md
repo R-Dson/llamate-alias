@@ -4,6 +4,23 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [qwen3:30b-a3b](https://huggingface.co/unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF)
+```bash
+llamate add qwen3:30b-a3b
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- temp: "0.7"
+- top-p: "0.8"
+- top-k: "20"
+- min-p: "0.0"
+- jinja: ""
+- flash-attn: ""
+- presence-penalty: "0.5"
+
+</details>
+
 ## [glm-4.1:9b](https://huggingface.co/unsloth/GLM-4.1V-9B-Thinking-GGUF)
 ```bash
 llamate add glm-4.1:9b
@@ -331,22 +348,6 @@ llamate add devstral:small
 ## [qwen3:32b](https://huggingface.co/unsloth/Qwen3-32B-GGUF)
 ```bash
 llamate add qwen3:32b
-```
-<details> <summary>parameters</summary>
-
-- ctx-size: "8192"
-- temp: "0.6"
-- top-p: "0.95"
-- top-k: "20"
-- min-p: "0.0"
-- jinja: ""
-- flash-attn: ""
-
-</details>
-
-## [qwen3:30b-a3b](https://huggingface.co/unsloth/Qwen3-30B-A3B-GGUF)
-```bash
-llamate add qwen3:30b-a3b
 ```
 <details> <summary>parameters</summary>
 
