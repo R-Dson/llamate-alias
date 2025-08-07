@@ -4,6 +4,36 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [gpt-oss:120B](https://huggingface.co/unsloth/gpt-oss-120b-GGUF)
+```bash
+llamate add gpt-oss:120B
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "16384"
+- temp: "1.0"
+- top-p: "1.0"
+- top-k: "0"
+- jinja: ""
+- flash-attn: ""
+
+</details>
+
+## [gpt-oss:20B](https://huggingface.co/unsloth/gpt-oss-20b-GGUF)
+```bash
+llamate add gpt-oss:20B
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "16384"
+- temp: "1.0"
+- top-p: "1.0"
+- top-k: "0"
+- jinja: ""
+- flash-attn: ""
+
+</details>
+
 ## [qwen3-coder:30b-a3b](https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF)
 ```bash
 llamate add qwen3-coder:30b-a3b
