@@ -1,3 +1,25 @@
+"gpt-oss:120B":
+  hf_repo: unsloth/gpt-oss-120b-GGUF
+  hf_file: gpt-oss-120b-UD-Q4_K_XL-00001-of-00002.gguf
+  args:
+    ctx-size: "16384"
+    temp: "1.0"
+    top-p: "1.0"
+    top-k: "0"
+    jinja: ""
+    flash-attn: ""
+
+"gpt-oss:20B":
+  hf_repo: unsloth/gpt-oss-20b-GGUF
+  hf_file: gpt-oss-20b-UD-Q4_K_XL.gguf
+  args:
+    ctx-size: "16384"
+    temp: "1.0"
+    top-p: "1.0"
+    top-k: "0"
+    jinja: ""
+    flash-attn: ""
+
 "qwen3-coder:30b-a3b":
   hf_repo: unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF
   hf_file: Qwen3-Coder-30B-A3B-Instruct-UD-Q4_K_XL.gguf
