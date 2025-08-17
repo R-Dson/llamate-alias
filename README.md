@@ -406,6 +406,9 @@ llamate add devstral:small
 - jinja: ""
 - temp: "0.15"
 - min-p: "0.01"
+- top-p: "0.95"
+- top-k: "64"
+- repeat-penalty: "1.0"
 - flash-attn: ""
 
 </details>
