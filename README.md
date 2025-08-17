@@ -405,6 +405,7 @@ llamate add devstral:small
 - ctx-size: "8192"
 - jinja: ""
 - temp: "0.15"
+- min-p: "0.01"
 - flash-attn: ""
 
 </details>
