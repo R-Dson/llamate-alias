@@ -1,3 +1,23 @@
+"nemotron-nano:9b":
+  hf_repo: bartowski/nvidia_NVIDIA-Nemotron-Nano-9B-v2-GGUF
+  hf_file: nvidia_NVIDIA-Nemotron-Nano-9B-v2-Q4_K_M.gguf
+  args:
+    ctx-size: "8192"
+    temp: "0.6"
+    top-p: "0.95"
+    jinja: ""
+    flash-attn: "on"
+
+"nemotron-nano:12b":
+  hf_repo: bartowski/nvidia_NVIDIA-Nemotron-Nano-12B-v2-GGUF
+  hf_file: nvidia_NVIDIA-Nemotron-Nano-12B-v2-Q4_K_M.gguf
+  args:
+    ctx-size: "8192"
+    temp: "0.6"
+    top-p: "0.95"
+    jinja: ""
+    flash-attn: "on"
+  
 "gpt-oss:120B":
   hf_repo: unsloth/gpt-oss-120b-GGUF
   hf_file: gpt-oss-120b-UD-Q4_K_XL-00001-of-00002.gguf
@@ -7,7 +27,7 @@
     top-p: "1.0"
     top-k: "0"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "gpt-oss:20B":
   hf_repo: unsloth/gpt-oss-20b-GGUF
@@ -18,7 +38,7 @@
     top-p: "1.0"
     top-k: "0"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "qwen3-coder:30b-a3b":
   hf_repo: unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF
@@ -30,7 +50,7 @@
     top-k: "20"
     min-p: "0.00"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
     repeat-penalty: "1.05"
 
 "qwen3-think:30b-a3b":
@@ -43,7 +63,7 @@
     top-k: "20"
     min-p: "0.0"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
     presence-penalty: "0.5"
 
 "qwen3:30b-a3b":
@@ -56,7 +76,7 @@
     top-k: "20"
     min-p: "0.0"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
     presence-penalty: "0.5"
 
 "glm-4.1:9b":
@@ -65,7 +85,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "magistral:small":
   hf_repo: unsloth/Magistral-Small-2507-GGUF
@@ -75,7 +95,7 @@
     temp: "0.7"
     top-p: "0.95"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "openreasoning-nemotron:32b":
   hf_repo: bartowski/nvidia_OpenReasoning-Nemotron-32B-GGUF
@@ -83,7 +103,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "openreasoning-nemotron:14b":
   hf_repo: bartowski/nvidia_OpenReasoning-Nemotron-14B-GGUF
@@ -91,7 +111,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "openreasoning-nemotron:7b":
   hf_repo: bartowski/nvidia_OpenReasoning-Nemotron-7B-GGUF
@@ -99,7 +119,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "openreasoning-nemotron:1.5b":
   hf_repo: bartowski/nvidia_OpenReasoning-Nemotron-1.5B-GGUF
@@ -107,7 +127,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
   
 
 "exaone-4:32b":
@@ -118,7 +138,7 @@
     top-p: "0.95"
     temp: "0.6"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "hunyuan:a13b":
   hf_repo: unsloth/Hunyuan-A13B-Instruct-GGUF
@@ -130,7 +150,7 @@
     top-p: "0.8"
     temp: "0.7"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "code-nemotron:32b":
   hf_repo: mradermacher/OpenCodeReasoning-Nemotron-1.1-32B-GGUF
@@ -140,7 +160,7 @@
     top-p: "0.95"
     temp: "0.6"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "code-nemotron:14b":
   hf_repo: mradermacher/OpenCodeReasoning-Nemotron-1.1-14B-GGUF
@@ -150,7 +170,7 @@
     top-p: "0.95"
     temp: "0.6"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "code-nemotron:7b":
   hf_repo: mradermacher/OpenCodeReasoning-Nemotron-1.1-7B-GGUF
@@ -160,7 +180,7 @@
     top-p: "0.95"
     temp: "0.6"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "phi4:reasoning-plus":
   hf_repo: unsloth/Phi-4-reasoning-plus-GGUF
@@ -170,7 +190,7 @@
     jinja: ""
     temp: "0.8"
     top-p: "0.95"
-    flash-attn: ""
+    flash-attn: "on"
 
 "llama3:8b":
   hf_repo: bartowski/Meta-Llama-3.1-8B-Instruct-GGUF
@@ -178,7 +198,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "llama3_1:8b":
   hf_repo: unsloth/Llama-3.1-8B-Instruct-GGUF
@@ -186,7 +206,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "llama3_2:1b":
   hf_repo: unsloth/Llama-3.2-1B-Instruct-GGUF
@@ -194,7 +214,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "llama3_2:3b":
   hf_repo: unsloth/Llama-3.2-3B-Instruct-GGUF
@@ -202,7 +222,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "llama3_3:70b":
   hf_repo: unsloth/Llama-3.3-70B-Instruct-GGUF
@@ -210,7 +230,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "llama3_1-nemotron-nano:8b":
   hf_repo: unsloth/Llama-3.1-Nemotron-Nano-8B-v1-GGUF
@@ -218,7 +238,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "acereason-nemotron:14b":
   hf_repo: unsloth/AceReason-Nemotron-14B-GGUF
@@ -228,7 +248,7 @@
     jinja: ""
     temp: "0.6"
     top-p: "0.95"
-    flash-attn: ""
+    flash-attn: "on"
 
 "acereason-nemotron:7b":
   hf_repo: bartowski/nvidia_AceReason-Nemotron-1.1-7B-GGUF
@@ -238,7 +258,7 @@
     jinja: ""
     temp: "0.6"
     top-p: "0.95"
-    flash-attn: ""
+    flash-attn: "on"
 
 "llama3_3-nemotron-super:49b":
   hf_repo: unsloth/Llama-3_3-Nemotron-Super-49B-v1-GGUF
@@ -246,7 +266,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "r1-distill:8b":
   hf_repo: unsloth/DeepSeek-R1-0528-Qwen3-8B-GGUF
@@ -254,7 +274,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "mistral:small-3_1":
   hf_repo: unsloth/Mistral-Small-3.1-24B-Instruct-2503-GGUF
@@ -263,7 +283,7 @@
     ctx-size: "8192"
     temp: "0.15"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "mistral:small-3_2":
   hf_repo: unsloth/Mistral-Small-3.2-24B-Instruct-2506-GGUF
@@ -273,7 +293,7 @@
     temp: "0.15"
     jinja: ""
     top-p: "1.00"
-    flash-attn: ""
+    flash-attn: "on"
 
 "devstral:small":
   hf_repo: unsloth/Devstral-Small-2507-GGUF
@@ -286,7 +306,7 @@
     top-p: "0.95"
     top-k: "64"
     repeat-penalty: "1.0"
-    flash-attn: ""
+    flash-attn: "on"
 
 "qwen3:32b":
   hf_repo: unsloth/Qwen3-32B-GGUF
@@ -298,7 +318,7 @@
     top-k: "20"
     min-p: "0.0"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "qwen3:14b":
   hf_repo: unsloth/Qwen3-14B-GGUF
@@ -310,7 +330,7 @@
     top-k: "20"
     min-p: "0.0"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
     
 "qwen3:8b":
   hf_repo: unsloth/Qwen3-8B-GGUF
@@ -322,7 +342,7 @@
     top-k: "20"
     min-p: "0.0"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
     
 "qwen3:4b":
   hf_repo: unsloth/Qwen3-4B-GGUF
@@ -334,7 +354,7 @@
     top-k: "20"
     min-p: "0.0"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
     
 "qwen3:1_7b":
   hf_repo: unsloth/Qwen3-1.7B-GGUF
@@ -346,7 +366,7 @@
     top-k: "20"
     min-p: "0.0"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
     
 "qwen3:0_6b":
   hf_repo: unsloth/Qwen3-0.6B-GGUF
@@ -358,7 +378,7 @@
     top-k: "20"
     min-p: "0.0"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "r1-distill-qwen:32b":
   hf_repo: unsloth/DeepSeek-R1-Distill-Qwen-32B-GGUF
@@ -368,7 +388,7 @@
     temp: "0.6"
     top-p: "0.95"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
     
 "gemma3:27b":
   hf_repo: unsloth/gemma-3-27b-it-qat-GGUF
@@ -376,7 +396,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "gemma3:12b":
   hf_repo: unsloth/gemma-3-12b-it-qat-GGUF
@@ -384,7 +404,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "gemma3:4b":
   hf_repo: unsloth/gemma-3-4b-it-qat-GGUF
@@ -392,7 +412,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "gemma3:1b":
   hf_repo: unsloth/gemma-3-1b-it-GGUF
@@ -400,7 +420,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "qwq:32b":
   hf_repo: unsloth/QwQ-32B-GGUF
@@ -415,7 +435,7 @@
     top-p: "0.95"
     samplers: "top_k;top_p;min_p;temperature;dry;typ_p;xtc"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "jan-nano":
   hf_repo: unsloth/Jan-nano-GGUF
@@ -423,7 +443,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "jan-nano:q8":
   hf_repo: unsloth/Jan-nano-GGUF
@@ -431,7 +451,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "seed-coder:8b":
   hf_repo: unsloth/Seed-Coder-8B-Instruct-GGUF
@@ -439,7 +459,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "seed-coder-reasoning:8b":
   hf_repo: unsloth/Seed-Coder-8B-Reasoning-GGUF
@@ -447,7 +467,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "deepcoder-14b-preview":
   hf_repo: bartowski/agentica-org_DeepCoder-14B-Preview-GGUF
@@ -457,7 +477,7 @@
     temp: "0.6"
     top-p: "0.95"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "skywork-swe:32b":
   hf_repo: bartowski/Skywork_Skywork-SWE-32B-GGUF
@@ -465,7 +485,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "kimi-dev:72b":
   hf_repo: unsloth/Kimi-Dev-72B-GGUF
@@ -473,7 +493,7 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
 
 "openbuddy-r1-distill-preview:32b":
   hf_repo: bartowski/OpenBuddy_OpenBuddy-R1-0528-Distill-Qwen3-32B-Preview0-QAT-GGUF
@@ -481,4 +501,4 @@
   args:
     ctx-size: "8192"
     jinja: ""
-    flash-attn: ""
+    flash-attn: "on"
