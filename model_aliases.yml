@@ -19,8 +19,8 @@
     flash-attn: "on"
   
 "gpt-oss:120B":
-  hf_repo: unsloth/gpt-oss-120b-GGUF
-  hf_file: gpt-oss-120b-UD-Q4_K_XL-00001-of-00002.gguf
+  hf_repo: ggml-org/gpt-oss-120b-GGUF
+  hf_file: gpt-oss-120b-mxfp4-00001-of-00003.gguf
   args:
     ctx-size: "16384"
     temp: "1.0"
@@ -30,8 +30,8 @@
     flash-attn: "on"
 
 "gpt-oss:20B":
-  hf_repo: unsloth/gpt-oss-20b-GGUF
-  hf_file: gpt-oss-20b-UD-Q4_K_XL.gguf
+  hf_repo: ggml-org/gpt-oss-20b-GGUF
+  hf_file: gpt-oss-20b-mxfp4.gguf
   args:
     ctx-size: "16384"
     temp: "1.0"
