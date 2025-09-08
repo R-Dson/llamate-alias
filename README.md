@@ -32,7 +32,7 @@ llamate add nemotron-nano:12b
 
 </details>
 
-## [gpt-oss:120B](https://huggingface.co/unsloth/gpt-oss-120b-GGUF)
+## [gpt-oss:120B](https://huggingface.co/ggml-org/gpt-oss-120b-GGUF)
 ```bash
 llamate add gpt-oss:120B
 ```
@@ -47,7 +47,7 @@ llamate add gpt-oss:120B
 
 </details>
 
-## [gpt-oss:20B](https://huggingface.co/unsloth/gpt-oss-20b-GGUF)
+## [gpt-oss:20B](https://huggingface.co/ggml-org/gpt-oss-20b-GGUF)
 ```bash
 llamate add gpt-oss:20B
 ```
