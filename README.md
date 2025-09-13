@@ -4,6 +4,19 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [ernie-4.5:21b](https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF)
+```bash
+llamate add ernie-4.5:21b
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- temp: "0.3"
+- jinja: ""
+- flash-attn: "on"
+
+</details>
+
 ## [nemotron-nano:9b](https://huggingface.co/bartowski/nvidia_NVIDIA-Nemotron-Nano-9B-v2-GGUF)
 ```bash
 llamate add nemotron-nano:9b
@@ -32,9 +45,9 @@ llamate add nemotron-nano:12b
 
 </details>
 
-## [gpt-oss:120B](https://huggingface.co/ggml-org/gpt-oss-120b-GGUF)
+## [gpt-oss:120b](https://huggingface.co/ggml-org/gpt-oss-120b-GGUF)
 ```bash
-llamate add gpt-oss:120B
+llamate add gpt-oss:120b
 ```
 <details> <summary>parameters</summary>
 
@@ -47,9 +60,9 @@ llamate add gpt-oss:120B
 
 </details>
 
-## [gpt-oss:20B](https://huggingface.co/ggml-org/gpt-oss-20b-GGUF)
+## [gpt-oss:20b](https://huggingface.co/ggml-org/gpt-oss-20b-GGUF)
 ```bash
-llamate add gpt-oss:20B
+llamate add gpt-oss:20b
 ```
 <details> <summary>parameters</summary>
 
