@@ -1,6 +1,6 @@
 "ernie-4.5:21b":
-  hf_repo: unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF
-  hf_file: ERNIE-4.5-21B-A3B-Thinking-UD-Q4_K_XL.gguf
+  hf_repo: bartowski/baidu_ERNIE-4.5-21B-A3B-Thinking-GGUF
+  hf_file: baidu_ERNIE-4.5-21B-A3B-Thinking-Q4_K_M.gguf
   args:
     ctx-size: "8192"
     temp: "0.3"
