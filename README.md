@@ -4,6 +4,20 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [magistral:small-2509](https://huggingface.co/unsloth/Magistral-Small-2509-GGUF)
+```bash
+llamate add magistral:small-2509
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- temp: "0.7"
+- top-p: "0.95"
+- jinja: ""
+- flash-attn: "on"
+
+</details>
+
 ## [ernie-4.5:21b](https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-Thinking-GGUF)
 ```bash
 llamate add ernie-4.5:21b
