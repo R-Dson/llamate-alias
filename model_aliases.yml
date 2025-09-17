@@ -1,3 +1,13 @@
+"magistral:small-2509":
+  hf_repo: unsloth/Magistral-Small-2509-GGUF
+  hf_file: Magistral-Small-2509-UD-Q4_K_XL.gguf
+  args:
+    ctx-size: "8192"
+    temp: "0.7"
+    top-p: "0.95"
+    jinja: ""
+    flash-attn: "on"
+
 "ernie-4.5:21b":
   hf_repo: bartowski/baidu_ERNIE-4.5-21B-A3B-Thinking-GGUF
   hf_file: baidu_ERNIE-4.5-21B-A3B-Thinking-Q4_K_M.gguf
