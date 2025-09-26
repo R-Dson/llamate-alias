@@ -1,3 +1,11 @@
+"kat-dev:32b":
+  hf_repo: mradermacher/KAT-Dev-GGUF
+  hf_file: KAT-Dev.IQ4_XS.gguf
+  args:
+    ctx-size: "8192"
+    jinja: ""
+    flash-attn: "on"
+
 "magistral:small-2509":
   hf_repo: unsloth/Magistral-Small-2509-GGUF
   hf_file: Magistral-Small-2509-UD-Q4_K_XL.gguf
