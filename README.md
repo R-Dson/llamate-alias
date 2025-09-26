@@ -4,6 +4,18 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [kat-dev:32b](https://huggingface.co/mradermacher/KAT-Dev-GGUF)
+```bash
+llamate add kat-dev:32b
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- jinja: ""
+- flash-attn: "on"
+
+</details>
+
 ## [magistral:small-2509](https://huggingface.co/unsloth/Magistral-Small-2509-GGUF)
 ```bash
 llamate add magistral:small-2509
