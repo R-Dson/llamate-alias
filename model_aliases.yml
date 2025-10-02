@@ -1,4 +1,4 @@
-"granite-4.0:small":
+"granite-4.0:micro":
   hf_repo: unsloth/granite-4.0-h-micro-GGUF
   hf_file: granite-4.0-h-micro-UD-Q4_K_XL.gguf
   args:
@@ -6,7 +6,7 @@
     jinja: ""
     flash-attn: "on"
 
-"granite-4.0:small":
+"granite-4.0:tiny":
   hf_repo: unsloth/granite-4.0-h-tiny-GGUF
   hf_file: granite-4.0-h-tiny-UD-Q4_K_XL.gguf
   args:
