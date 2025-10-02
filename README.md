@@ -4,6 +4,30 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [granite-4.0:micro](https://huggingface.co/unsloth/granite-4.0-h-micro-GGUF)
+```bash
+llamate add granite-4.0:micro
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- jinja: ""
+- flash-attn: "on"
+
+</details>
+
+## [granite-4.0:tiny](https://huggingface.co/unsloth/granite-4.0-h-tiny-GGUF)
+```bash
+llamate add granite-4.0:tiny
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- jinja: ""
+- flash-attn: "on"
+
+</details>
+
 ## [granite-4.0:small](https://huggingface.co/unsloth/granite-4.0-h-small-GGUF)
 ```bash
 llamate add granite-4.0:small
