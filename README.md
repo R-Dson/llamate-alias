@@ -30,7 +30,7 @@ llamate add magistral:small-2509
 
 </details>
 
-## [ernie-4.5:21b](https://huggingface.co/bartowski/baidu_ERNIE-4.5-21B-A3B-Thinking-GGUF)
+## [ernie-4.5:21b](https://huggingface.co/unsloth/ERNIE-4.5-21B-A3B-Thinking-GGUF)
 ```bash
 llamate add ernie-4.5:21b
 ```
