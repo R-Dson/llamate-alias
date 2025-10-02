@@ -4,6 +4,18 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [granite-4.0:small](https://huggingface.co/unsloth/granite-4.0-h-small-GGUF)
+```bash
+llamate add granite-4.0:small
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- jinja: ""
+- flash-attn: "on"
+
+</details>
+
 ## [kat-dev:32b](https://huggingface.co/mradermacher/KAT-Dev-GGUF)
 ```bash
 llamate add kat-dev:32b
