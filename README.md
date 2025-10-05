@@ -40,7 +40,7 @@ llamate add granite-4.0:small
 
 </details>
 
-## [kat-dev:32b](https://huggingface.co/mradermacher/KAT-Dev-GGUF)
+## [kat-dev:32b](https://huggingface.co/mradermacher/KAT-Dev-i1-GGUF)
 ```bash
 llamate add kat-dev:32b
 ```
