@@ -23,8 +23,8 @@
     flash-attn: "on"
 
 "kat-dev:32b":
-  hf_repo: mradermacher/KAT-Dev-GGUF
-  hf_file: KAT-Dev.IQ4_XS.gguf
+  hf_repo: mradermacher/KAT-Dev-i1-GGUF
+  hf_file: KAT-Dev.i1-IQ4_XS.gguf
   args:
     ctx-size: "8192"
     jinja: ""
