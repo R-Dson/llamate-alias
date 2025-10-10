@@ -4,9 +4,9 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
-## [lfm2:8b-a1b](https://huggingface.co/unsloth/LFM2-8B-A1B-GGUF)
+## [lfm2:8b](https://huggingface.co/unsloth/LFM2-8B-A1B-GGUF)
 ```bash
-llamate add lfm2:8b-a1b
+llamate add lfm2:8b
 ```
 <details> <summary>parameters</summary>
 
