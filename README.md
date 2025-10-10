@@ -4,6 +4,21 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [ lfm2:8b-a1b](https://huggingface.co/unsloth/LFM2-8B-A1B-GGUF)
+```bash
+llamate add  lfm2:8b-a1b
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- jinja: ""
+- flash-attn: "on"
+- temp: "0.3"
+- min-p: "0.15"
+- repeat-penalty: "1.05"
+
+</details>
+
 ## [granite-4.0:micro](https://huggingface.co/unsloth/granite-4.0-h-micro-GGUF)
 ```bash
 llamate add granite-4.0:micro
