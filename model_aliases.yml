@@ -1,3 +1,14 @@
+" lfm2:8b-a1b":
+  hf_repo: unsloth/LFM2-8B-A1B-GGUF
+  hf_file: LFM2-8B-A1B-UD-Q4_K_XL.gguf
+  args:
+    ctx-size: "8192"
+    jinja: ""
+    flash-attn: "on"
+    temp: "0.3"
+    min-p: "0.15"
+    repeat-penalty: "1.05"
+
 "granite-4.0:micro":
   hf_repo: unsloth/granite-4.0-h-micro-GGUF
   hf_file: granite-4.0-h-micro-UD-Q4_K_XL.gguf
