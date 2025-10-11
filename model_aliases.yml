@@ -40,6 +40,9 @@
     ctx-size: "8192"
     jinja: ""
     flash-attn: "on"
+    temp: "0.6"
+    top-p: "0.95"
+    top-k: "20"
 
 "magistral:small-2509":
   hf_repo: unsloth/Magistral-Small-2509-GGUF
