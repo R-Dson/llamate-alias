@@ -64,6 +64,9 @@ llamate add kat-dev:32b
 - ctx-size: "8192"
 - jinja: ""
 - flash-attn: "on"
+- temp: "0.6"
+- top-p: "0.95"
+- top-k: "20"
 
 </details>
 
