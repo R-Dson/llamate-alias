@@ -4,6 +4,18 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
+## [cogito-v1:32B](https://huggingface.co/bartowski/deepcogito_cogito-v1-preview-qwen-32B-GGUF)
+```bash
+llamate add cogito-v1:32B
+```
+<details> <summary>parameters</summary>
+
+- ctx-size: "8192"
+- jinja: ""
+- flash-attn: "on"
+
+</details>
+
 ## [lfm2:8b](https://huggingface.co/unsloth/LFM2-8B-A1B-GGUF)
 ```bash
 llamate add lfm2:8b
