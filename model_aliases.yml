@@ -7,8 +7,8 @@
     flash-attn: "on"
 
 "januscoder-14b":
-  hf_repo: LuffyTheFox/JanusCoder-14B-Q4_K_M-GGUF
-  hf_file: januscoder-14b-q4_k_m.gguf
+  hf_repo: bartowski/internlm_JanusCoder-14B-GGUF
+  hf_file: internlm_JanusCoder-14B-Q4_K_M.gguf
   args:
     ctx-size: "8192"
     jinja: ""
