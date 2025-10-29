@@ -16,7 +16,7 @@ llamate add januscoder-8b
 
 </details>
 
-## [januscoder-14b](https://huggingface.co/LuffyTheFox/JanusCoder-14B-Q4_K_M-GGUF)
+## [januscoder-14b](https://huggingface.co/bartowski/internlm_JanusCoder-14B-GGUF)
 ```bash
 llamate add januscoder-14b
 ```
