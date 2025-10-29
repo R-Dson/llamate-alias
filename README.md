@@ -4,9 +4,9 @@ This file lists available model aliases and their default arguments.
 
 You can add these models to your `llamate` setup using the commands shown.
 
-## [JanusCoder-8B](https://huggingface.co/bartowski/internlm_JanusCoder-8B-GGUF)
+## [januscoder-8b](https://huggingface.co/bartowski/internlm_JanusCoder-8B-GGUF)
 ```bash
-llamate add JanusCoder-8B
+llamate add januscoder-8b
 ```
 <details> <summary>parameters</summary>
 
@@ -16,9 +16,9 @@ llamate add JanusCoder-8B
 
 </details>
 
-## [JanusCoder-14B](https://huggingface.co/LuffyTheFox/JanusCoder-14B-Q4_K_M-GGUF)
+## [januscoder-14b](https://huggingface.co/LuffyTheFox/JanusCoder-14B-Q4_K_M-GGUF)
 ```bash
-llamate add JanusCoder-14B
+llamate add januscoder-14b
 ```
 <details> <summary>parameters</summary>
 
@@ -28,9 +28,9 @@ llamate add JanusCoder-14B
 
 </details>
 
-## [cogito-v1:32B](https://huggingface.co/bartowski/deepcogito_cogito-v1-preview-qwen-32B-GGUF)
+## [cogito-v1:32b](https://huggingface.co/bartowski/deepcogito_cogito-v1-preview-qwen-32B-GGUF)
 ```bash
-llamate add cogito-v1:32B
+llamate add cogito-v1:32b
 ```
 <details> <summary>parameters</summary>
 
